@@ -1,0 +1,11 @@
+Build new Image
+
+docker build -t node-docker . //Command builds a new docker image based off the specified base operating system, run the command in the folder that contains the the Docker file (.)
+
+Run container from the build Image
+
+docker run -d node-docker -p 3000:3000 //Run a new container based off the node-docker image and map it o port 3000 of the host.
+
+Run container from image at the repository
+
+docker run -d --name kuard -p 8080:8080 gcr.io/kuar-demo/kuard-amd64:blue
