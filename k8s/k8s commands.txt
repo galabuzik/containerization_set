@@ -1,0 +1,3 @@
+kubectl get pods -o wide --show-labels //This will show all the pods and their assocaited ip addresses in an kubernetes cluster.
+
+kubectl get pods -o wide --selector=app=alpaca,env=prod //This will show all the pods that have the associated labels.
