@@ -21,9 +21,32 @@ _The example below will get the replicaset that is part of the app:nginx deploym
 ![image](https://user-images.githubusercontent.com/19956502/130782040-2c0b1b17-90f9-4bda-a497-52b55dede2d6.png)
 
 
-6.kubectl describe deployments nginx-deployment - _Get details about your Kubernetes deployment._
+6.kubectl describe deployments nginx-deployment -> _Get details about your Kubernetes deployment._
 
 ![image](https://user-images.githubusercontent.com/19956502/130783632-48abb4a1-308f-46b9-a42b-f8074eac93c2.png)
+
+7.kubectl apply -f nginx-deployment.yaml -> _Apply changes to current deployment after modifying the updated deployment yaml manifest._
+
+![image](https://user-images.githubusercontent.com/19956502/131026613-f7594d7a-dace-41ff-a931-89e56275d89b.png)
+
+8.kubectl rollout status deployments nginx-deployment -> _Check the status of a previously rolled out Kubernetes deployment._
+
+![image](https://user-images.githubusercontent.com/19956502/131027127-229aa3af-3304-4498-ae6f-f39a907c2a26.png)
+
+9.kubectl get replicasets -o wide -> _Get current replicasets._
+
+![image](https://user-images.githubusercontent.com/19956502/131027330-b3c08804-2453-4d3f-8de8-7cc8c966c7d2.png)
+
+10. kubectl rollout pause deployments nginx-deployment -> _Pause a Kubernetes Deployment incase of any issues._
+
+![image](https://user-images.githubusercontent.com/19956502/131027754-76e9c0c8-52c4-4c11-a3c2-cbb3ec69bcca.png)
+
+11. kubectl rollout resume deployments nginx-deployment -> _Resume a Kubernetes Deployment._
+
+![image](https://user-images.githubusercontent.com/19956502/131027952-495d45c8-373a-4908-b5db-89d12b5aa517.png)
+
+12.
+
 
 
 
