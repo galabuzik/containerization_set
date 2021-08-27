@@ -45,7 +45,20 @@ _The example below will get the replicaset that is part of the app:nginx deploym
 
 ![image](https://user-images.githubusercontent.com/19956502/131027952-495d45c8-373a-4908-b5db-89d12b5aa517.png)
 
-12.
+12.kubectl rollout history deployment nginx-deployment -> _View rollout history_
+
+![image](https://user-images.githubusercontent.com/19956502/131087965-b86e0599-bebc-41f5-a0a5-a6d173b91bf9.png)
+
+13. kubectl rollout history deployment nginx-deployment --revision=1 -> _View the details of a specific revision._
+
+![image](https://user-images.githubusercontent.com/19956502/131088226-67f77ca9-1e00-4d9c-abc0-a52abfea7a3d.png)
+
+14.kubectl rollout undo deployments nginx-deployment -> _Roll back to a previous deployment._
+
+![image](https://user-images.githubusercontent.com/19956502/131088805-bcef461d-7d18-484d-83db-43e96d0851f2.png)
+
+
+
 
 
 
