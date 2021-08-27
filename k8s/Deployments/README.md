@@ -57,6 +57,15 @@ _The example below will get the replicaset that is part of the app:nginx deploym
 
 ![image](https://user-images.githubusercontent.com/19956502/131088805-bcef461d-7d18-484d-83db-43e96d0851f2.png)
 
+15.kubectl rollout undo deployments nginx-deployment --to-revision=1 -> _Undo a deployment to a specific revision._
+
+![image](https://user-images.githubusercontent.com/19956502/131089859-4aa29d7e-5a8f-4635-b2b5-a4f72f844e49.png)
+
+16. kubectl delete deployment nginx-deployment -> _Delete a Deployment._
+
+![image](https://user-images.githubusercontent.com/19956502/131092680-128eb224-2d0c-4070-a71b-9b8f17f26ce1.png)
+
+
 
 
 
