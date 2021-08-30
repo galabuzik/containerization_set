@@ -1,3 +1,5 @@
+**DaemonSets**
+
 kubectl get daemonset --namespace kube-system -> _Get all daemon sets running in the kube-system namespace._
 
 ![image](https://user-images.githubusercontent.com/19956502/131334426-f50f53b5-5de8-4f4b-a656-0eece9be106b.png)
