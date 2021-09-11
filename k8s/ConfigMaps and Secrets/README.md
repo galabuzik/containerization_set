@@ -20,9 +20,13 @@
 
 ![image](https://user-images.githubusercontent.com/19956502/132960719-3d56307d-3d93-4ee1-a46c-002f44b57190.png)
 
-6. kubect get configmaps - _List all configmaps in a namepsace._
+6. kubectl get configmaps - _List all configmaps in a namepsace._
 
 ![image](https://user-images.githubusercontent.com/19956502/132960736-c3b17399-a143-41df-830c-515157eac556.png)
+
+7. kubectl edit configmap my-config - _Edit a config map._
+
+![image](https://user-images.githubusercontent.com/19956502/132960932-95568f50-04b8-4944-a3b0-7796e77865cd.png)
 
 
 
