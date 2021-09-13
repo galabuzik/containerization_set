@@ -1,1 +1,1 @@
-**Intergrating Storage Solutions**
+YAML Manifests for Statefulsets and Persistent Volumes
